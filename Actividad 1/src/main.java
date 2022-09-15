@@ -1,5 +1,5 @@
 
-import controlers.ListaPaquetes;
+import controlers.Paqueteria;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -79,7 +79,7 @@ public class main {
         //Paquete auxilar para cada nuevo registro de paquete
         Paquete paquete ;
         //Nueva lista para gestionar los paquetes
-        ListaPaquetes listaPaquetes = new ListaPaquetes();
+        Paqueteria listaPaquetes = new Paqueteria();
         do{
             scanner = new Scanner(System.in);
             opcion = MENU_PRINCIPAL;
